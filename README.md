@@ -8,5 +8,7 @@ question = "What is north of the museum?"
 
 text = "Mum enjoys visiting the museum because our house is 5 minutes north of the museum. "
 
+answer = predict_answer(model, tokenizer, question, text)
+
 
 **Answer:** House
