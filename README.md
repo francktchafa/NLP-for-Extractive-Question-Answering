@@ -6,8 +6,7 @@ This repository presents an extractive question-answering (QA) framework utilizi
 question = "What is north of the museum?"
 text = "Mum enjoys visiting the museum because our house is 5 minutes north of the museum. "
 answer = predict_answer(model, tokenizer, question, text)
-print(f"Q: {question}\nA: {answer}")
+
 
 **Output:**
-Q: What is north of the museum?
-A: House
+answer: House
