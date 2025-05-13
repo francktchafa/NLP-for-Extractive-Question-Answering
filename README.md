@@ -8,5 +8,4 @@ text = "Mum enjoys visiting the museum because our house is 5 minutes north of t
 answer = predict_answer(model, tokenizer, question, text)
 
 
-**Output:**
-answer: House
+**Answer:** House
